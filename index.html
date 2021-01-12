@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Elite Care</title>
+      <link rel="stylesheet" href="style.css" type="text/css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Pacifico&family=Yellowtail&display=swap" rel="stylesheet">
+      <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+
+    <!--audio file to be used when hovering over the nav anchor tags-->
+    <audio id="audio" src="images/251389__deadsillyrabbit__button-hover-ogg.ogg"></audio>  
+
+    <nav id="nav">
+      <ul>
+        <!--anchor tags contain an inline reference back to the JS function expression "play()" so that it's called when the mouse goes into their box space-->
+        <li><a onmouseover="play()" id="aOne" href="#about-us-too">About Us</a></li>
+        <li><a onmouseover="play()" id="aTwo" href="#services">Services</a></li>
+        <li><a onmouseover="play()" id="aThree" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <br>
+   
+    <div id="header"> 
+      <div class="clearfix">
+        <div id="boxOne" id="text">
+          <h1>Elite Care</h1>
+        </div>
+        <div id="boxTwo" id="images">
+          <img id="hands" src="images/bw.jpg" alt="hands">
+        </div>
+      </div>
+    </div>
+    
+        
+      
+    <div id = "linearGrad">
+      <main>
+        <h2>"not all care and domestic needs are black and white....any and all grey areas are carefully considered to suit you"</h2>
+        <div id="about-us-too"></div>
+        <br>
+        <h3 id="about-us">About Us</h3>
+        <p id="description">At Elite Care, we <strong>understand the concern experienced</strong> when choosing a care provider, either for yourself or for your loved one.  That's why we pride ourselves in <strong>application of the highest standards,</strong> enabling our clients to maintain their independence and feel comfortable, safe and secure with our <strong>expert staff.</strong>  We work with you to <strong>tailor our care packages precisely to requirements, delivering an exclusive, individual service</strong> for each and every client.</p>
+        <h3 id="services">Services available</h3>
+        <p><strong>Domestic duties </strong><br>Whether it's vacuuming, surface cleaning, washing, ironing, let us take responsibility for your domestic duties.</p>
+        <p><strong>Personal care </strong><br>Our personal care services ensure that the highest standards of client respect and dignity are maintained at all times.</p>
+        <p><strong>Appointments </strong><br>We can assist with the booking of, transport to, or act as proxy at (where appropriate) client appointments.</p>
+        <p><strong>Companionship </strong><br>Whilst we guarantee a reliable and efficient service, we deliver this with compassion and respect.  We are proud to say that this results in true companionship developing throughout the relationship with our clients.</p>
+      </main>
+   
+      <footer>
+        <h3 id="contact">Contact Us Today</h3>
+        <p>Sandi Leiber</p>
+        <p>sleiber@elitecare.co.uk</p>
+        <p>Telephone: 01234 5678910</p>
+      </footer>
+    </div>
+  </body>
+</html>
